@@ -15,9 +15,9 @@ alert('Lista de Compras: ' +listaCompras);
 
 // Treinando aula de Quarta
 
-var nome = prompt('Insira seu nome: ');
-var numero1 = Number(prompt('Insira o primeiro número: '));
-var numero2 = Number(prompt('Insira o seu segundo número:'));
-var conta = numero1 / numero2;
+let nome = prompt('Insira seu nome: ');
+let numero1 = Number(prompt('Insira o primeiro número: '));
+let numero2 = Number(prompt('Insira o seu segundo número:'));
+let conta = numero1 / numero2;
 alert('Olá ' +nome+ ', o resultado da divisão da sua conta é: ' +conta);
 
